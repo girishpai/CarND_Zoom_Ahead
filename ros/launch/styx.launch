@@ -18,6 +18,13 @@
     <!--Traffic Light Detector Node -->
     <include file="$(find tl_detector)/launch/tl_detector.launch"/>
 
+    <!--Plot tool Node -->
+    <include file="$(find plot_tool)/launch/plot_tool.launch"/>
+
+    <!--Plot monitor Node -->
+    <include file="$(find plot_mon)/launch/plot_mon.launch"/>
+
     <!--Traffic Light Locations and Camera Config -->
     <param name="traffic_light_config" textfile="$(find tl_detector)/sim_traffic_light_config.yaml" />
+
 </launch>

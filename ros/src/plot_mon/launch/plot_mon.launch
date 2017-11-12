@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="file" default="$(find plot_mon)/../../../data/wp_yaw_const.csv" />
+    <node pkg="plot_mon" type="plot_mon.py" name="plot_mon" args="$(arg file)"/>
+</launch>

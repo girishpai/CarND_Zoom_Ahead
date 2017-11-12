@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="plot_tool" type="plot_path.py" name="plot_tool" />
+</launch>
